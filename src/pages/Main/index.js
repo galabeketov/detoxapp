@@ -22,7 +22,7 @@ import ScrollTop from '../../components/ScrollTop';
 export default function Main() {
   return (
     <div className="boxed_wrapper ltr">
-      <div class="preloader"></div>
+      {/* <div class="preloader"></div> */}
       <MainHeader />
       <SwitcherMenu />
       <PageDirection />

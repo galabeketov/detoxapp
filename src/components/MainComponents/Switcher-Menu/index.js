@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import $ from 'jquery';
 
 export default function SwitcherMenu() {
+  // useEffect(() => {}, []);
+
   return (
     <div>
       <div className="switcher">
@@ -13,39 +16,19 @@ export default function SwitcherMenu() {
           <div className="switcher_container">
             <ul id="styleOptions" title="switch styling">
               <li>
-                <a
-                  href="#"
-                  data-theme="blue"
-                  className="blue-color"
-                ></a>
+                <a href="#" data-theme="blue" className="blue-color"></a>
               </li>
               <li>
-                <a
-                  href="#"
-                  data-theme="pink"
-                  className="pink-color"
-                ></a>
+                <a href="#" data-theme="pink" className="pink-color"></a>
               </li>
               <li>
-                <a
-                  href="#"
-                  data-theme="violet"
-                  className="violet-color"
-                ></a>
+                <a href="#" data-theme="violet" className="violet-color"></a>
               </li>
               <li>
-                <a
-                  href="#"
-                  data-theme="crimson"
-                  className="crimson-color"
-                ></a>
+                <a href="#" data-theme="crimson" className="crimson-color"></a>
               </li>
               <li>
-                <a
-                  href="#"
-                  data-theme="orange"
-                  className="orange-color"
-                ></a>
+                <a href="#" data-theme="orange" className="orange-color"></a>
               </li>
             </ul>
           </div>

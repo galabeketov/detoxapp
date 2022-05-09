@@ -41,3 +41,6 @@
   top: 0px;
   left: 0px;
 }
+a {
+  cursor: pointer;
+}
